@@ -1,0 +1,759 @@
+*{
+   margin: 0; 
+   padding: 0;
+   font-family: 'Lato',sans-serif;
+} 
+
+
+
+/* ///////////////       HEADER STYLE START             ///////////////////// */
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 112px;  /*changed*/
+    background-color: #fff;
+    border-bottom: 0.8px solid #ccc;
+
+    z-index: 500;
+}
+
+.nav_container{
+    width: 1264.8px;
+    height: 115.36px;
+    margin: 0px 127.2px;
+    padding: 0px 5.58px;
+    font: 6px Lato,sans-serif;
+}
+
+.navbar{
+    width: 1253.65px;
+    height: 114.56px;
+    color: #000;
+    position: relative;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    margin: 0px;
+    padding: 0px;
+
+    width: 866.94px;
+    height: 114.56px;
+    color: #000;
+    font: 17.112px Lato,sans-serif;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-weight: 600;
+}
+
+.nav_logo{
+    width: 240.3px;    /*changed*/
+    height: 56.275px;
+    background-image: url('./image_shivalik_bank/logoBank.png');
+    background-size: cover;
+   
+}
+
+.about a{
+    width: 108.43px;
+    height: 114.56px;
+    color: #333;
+    padding: 46.128px 18.6px;
+    
+}
+
+.product a{
+    width: 205.28px;
+    height: 114.56px;
+    color:#333;
+    padding: 46.128px 18.6px ;
+
+    margin-left: -6px;
+   
+}
+
+.developers a{
+    width: 124.51px;
+    height: 114.56px;
+    color:#333;
+    padding: 46.128px 18.6px ;
+    margin-right: 10px;  /*changed*/
+    margin-left: -7px;   /*changed*/
+  
+
+}
+
+
+.netbanking a{
+    /* width: 170.78px; */
+    /* height: 38.79px; */
+    
+    color:#fff;
+    font-size: 15.624px;
+
+    font-weight: 500;
+    padding: 9.44px 22.32px;
+    
+    border-radius: 30px;
+    background-color: #04507f;
+    border: 1px solid #003a5f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: -3px;  /*changed*/
+
+   
+}
+
+
+
+
+.telephone a{
+    /* width: 181.29px; */
+    /* height: 38.79px; */
+    color: #333;
+    
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 15.624px;
+    padding: 9.44px 22.32px;
+    
+    
+    border-radius: 30px;
+    background-color: #85d27b;
+    border: 1px solid  #6CBC61;
+
+    
+}
+
+.telephone_icon{
+    width: 13.39px;
+    height: 11.91px;
+    margin: 0px 11.16px 0px 0px;
+}
+
+
+.bar_line{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.search_icon{
+    width: 23.8px;
+    height: 23.43px;
+
+    margin-top: 5px;
+}
+
+/* ////////////////     HEADER STYLE END            //////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////        BODY STYLE START          //////////////////////// */
+.portion_one{
+   
+
+    width: 100%;
+    height: 528.55px;
+    
+    background-image: url('./image_shivalik_bank/body_img1.jpg');
+    background-size: cover;
+}
+
+.portion_two{
+    display: flex;
+    justify-content: center;
+
+    padding: 81.840px 0px 89.280px 0px;
+    font-family: Lato,sans-serif;
+}
+.portion_two_img{
+
+    width: 515.85px;
+    height: 352.25px;
+
+    margin-right: 11px;
+
+    background-image: url('./image_shivalik_bank/body_img2.png');
+    background-size: cover;
+
+}
+.portion_two_text{
+    width: 592.730px;
+    height: 297.525px;
+    padding: 0px 66.960px;
+
+    
+    
+}
+
+.portion_two_text h1{
+    width: 592.750px;
+    height: 53.563px;
+    font: 44.64px Lato,sans-serif;
+    color: #262626;
+    margin: 0px 0px 40px;  /* margin-bottom       changed */
+    font-weight: 550;
+
+     
+
+}
+
+.portion_two_text p{
+    font: 17.856px Lato,sans-serif;
+    color: rgb(102,102,102);
+    padding: 0px 0px 14.88px;
+    font-weight: 400;
+    line-height: 25px;
+    text-size-adjust: 100%;
+
+    
+    
+    
+}
+
+
+
+.portion_three{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.card_section{
+    width: 1519.2px;
+    height: 513.34px;
+}
+
+.card li{
+    display: flex;
+
+    width: 571.654px;
+    height: 127.853px;
+    padding: 33.480px 29.760px 33.480px 15.624px;
+    
+    background-color: #f1f9f1;
+    border-radius: 18.6px;
+    border: 0.8px solid rgb(218,235,208);
+  
+    /* background-color: rgba(0,0,0,0.05); */
+}
+.card{
+    width: 1253.65px;
+    height: 425px;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+   
+    
+}
+
+.card_one_logo{
+    width: 81px;
+    height: 81px;
+    margin-top: 0px;
+    margin-left: 18px;
+}
+
+.card_text h3{
+    margin: 0px;
+
+    width: 340.83px;
+
+  
+   
+    
+    
+    color: #333;
+    font: 26.784px Lato,sans-serif;
+}
+
+.card_button{
+    width:94px;  /*changed*/
+
+    height: 40px;
+    color: #fff;
+    font: 17.856px Lato,sans-serif;
+    margin: 11.6px 0px 0px -190px;
+    padding: 11.16px 28.272px;
+
+    font-weight: 500;
+
+    border-width: 0.8px;
+    border-color: #003a5f;
+
+    background-color: #003a5f;
+    border-radius: 30px;
+}
+
+.card_text_btn{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-left: 38px;
+
+}
+
+
+/* ////////////////            BODY STYLE END              ///////////////////////////////// */
+
+.slider_section{
+    background-color: white;
+}
+.slider_section_content{
+    margin: 0px 127.200px 0px 127.200px;
+}
+   
+.slider{
+    width:100%;
+    height:450px;
+    background-color: white;
+    padding: 40px 25px;
+    
+}
+.slider_section_content h2{
+    font-size: 26.784px;
+    font-family: Lato,sans-serif;
+    margin: 0px 0px 22.32px 4px;
+    font-weight: 800;
+
+
+}
+.slider_image{
+
+     width: 284.250px;
+     height: 318.88px;
+}
+
+
+.slider_text{
+    width: 284.25px;
+    height: auto;
+    padding: 14.88px 0px 0px 0px;
+    font-family: Lato,sans-serif;
+}
+.slider_text p{
+    margin: 0;
+    font-size: 15.624px;
+    color: #333;
+
+}
+.slider_text span{
+    font-size: 13.392px;
+    color: #6CBC61;
+}
+
+.slick-prev::before {
+    content: "<";
+    color:  rgb(108, 45, 224);
+    font-size: 15px;
+    
+  }
+  
+.slick-next::before {
+    content: ">";
+    color: rgb(108, 45, 224);
+    font-size: 15px;
+    
+   
+  }
+  .slick-prev, .slick-next{
+    width:34.962px;
+    height: 25.092px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+  }
+
+  .slick-prev{
+    border-bottom-left-radius: 47%;
+    border-top-left-radius: 47%;
+    border: 0.5px solid lightgrey;
+   
+    position: absolute;
+    top: 0;
+    right: 65.5px;
+
+  }
+  .slick-next{
+    
+    border-bottom-right-radius: 47%;
+    border-top-right-radius: 47%;
+    border: 0.5px solid lightgrey;
+    
+    position: absolute;
+    top: 0;
+    right: 30px;
+
+  }
+  
+  
+   
+  
+
+
+
+
+
+
+.technology_business_section{
+    width: 100%;
+    height: 253.562px;
+    padding: 74.400px 0px;
+
+    background-color:white;
+   }
+  .technology_business_content{
+    width: auto;
+    height: 253.562px;
+    padding: 0px 5.580px;
+    margin: 0px 127.200px;
+    border: 0px;
+  }
+  .tab_container{
+   width: auto;
+   height: 78.838px;
+
+   display: flex;
+   justify-content: center;
+  }
+  .tab {
+    overflow: hidden;
+   
+    background-color: #f2f3f7;
+
+    width: 493.495px;
+    height: 63.958px;
+    padding: 7.44px;
+
+    display: flex;
+    justify-content: center;
+
+    border-radius: 5rem;
+    
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button{
+    background-color: inherit;
+    border: none;
+    color: #bdbdbd;
+    /* outline: none; */
+   
+    height: 4rem;
+    
+    padding: 18px 29.760px 20.832px;
+    font-size: 22.32px;
+    
+    transition: 0.3s;
+
+    border-radius: 5rem;
+    
+    box-shadow: #ccc ;
+  }
+
+  .tab_image_content{
+    width: 1253.650px;
+    height: 115.25px;
+    padding: 29.760px 0px 0px;
+
+    /* display: flex;
+    align-items: center; */
+
+  }
+ 
+ 
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: white;
+    color: #333;
+  }
+  
+
+
+  
+  .technology_ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+  }
+  .business_ul{
+    display: flex;
+    padding: 40px 0px;
+    
+  }
+  .technology_ul   img{
+    width: 179.25px;
+    height: 115.23px;
+    
+  }
+  .business_ul   img{
+    width: 179.25px;
+    height: 115.23px;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.technology_business_content{
+    background-color: white;
+}
+
+
+.slick-prev::before {
+    content: "<";
+    color:  rgb(108, 45, 224);
+    font-size: 15px;
+    
+  }
+  
+.slick-next::before {
+    content: ">";
+    color: rgb(108, 45, 224);
+    font-size: 15px;
+    
+   
+  }
+  .slick-prev, .slick-next{
+    width:34.962px;
+    height: 25.092px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+  }
+
+  .slick-prev{
+    border-bottom-left-radius: 47%;
+    border-top-left-radius: 47%;
+    border: 0.5px solid lightgrey;
+   
+    position: absolute;
+    top: 0;
+    right: 65.5px;
+
+  }
+  .slick-next{
+    
+    border-bottom-right-radius: 47%;
+    border-top-right-radius: 47%;
+    border: 0.5px solid lightgrey;
+    
+    position: absolute;
+    top: 0;
+    right: 30px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/* ////////////////            FOOTER STYLE START              ///////////////////////////////// */
+
+.footer{
+   width: 100%;
+   height: 1358.58px;
+   padding: 89.28px 0px 0px;
+   background-color: #f7fdf7;
+   color: #000;
+   font-family: Lato,sans-serif;
+   font-weight: 400;
+   font-size: 15.624px;
+
+    
+}
+
+
+.upper_footer{
+    width: 1253.640px;
+    height: 1045.31px;
+    padding: 0px 5.580px;
+    margin: 0px 127.200px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    
+   
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #005287;   
+}
+
+
+ .footer_content{
+    width: 250.73px;
+    height: 466.78px;
+    margin: 0px 0px 37.2px;
+    
+    line-height: 35px;
+
+} 
+.footer_content h2{
+    color: #005287;
+    
+    font-weight: 600;
+    line-height: 22px;
+
+    margin-bottom: 38px;
+    /* font-size: 17.856px; */
+}
+
+.footer_content ul{
+    padding: 0;
+}
+
+ 
+
+ 
+
+
+
+
+
+.copyright_logo_text_socialmedia{
+    width: 1264.800px;
+    height: 43.150px;
+    
+
+    display: flex;
+} 
+
+.copyright_logo_text{
+    width: 832.037px;
+    height: 37.15px;
+    display: flex;
+    align-items: center;
+
+}
+.copyright_logo_text{
+    color: #005287;  
+}
+
+.copyright_media_logo{
+    width: 410.438px;
+    height: 43.15px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.footer_text{
+    width: 1253.650px;
+    height: 101.137px;
+    padding: 11.160px 0px 7.440px 0px;
+    margin: 14.880px 0px 0px 0px ;
+    border-top: 0.800px solid #ccc;
+
+    line-height: 25px;
+    font-size: 13.392px;
+    color: #1A4976;
+}
+
+.footer_text ul{
+    padding: 0;
+}
+
+
+
+.footer_logo{
+    width: 37.2px;
+    height: 37.17px;
+    margin: 0px 7.44px 0px 0px ;
+}
+
+
+
+.social_media{
+
+    width: 43.15px;
+    height: 43.15px;
+    margin-left: 15px;
+
+
+
+}
+
+.lower_footer{
+    width: 1253.650px;
+    height: 178.548px;
+    padding: 22.320px 0px;
+    border-top: 0.800px solid #ccc;
+
+    margin: 0px 134px;
+
+}
+
+
+
+
+
+/* ////////////////            FOOTER STYLE END              ///////////////////////////////// */
